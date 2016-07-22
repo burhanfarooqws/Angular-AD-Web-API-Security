@@ -1,0 +1,28 @@
+﻿<div class="row">
+    <h2>Android Faults Per Million</h2>
+</div>
+
+<div class="row">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Version</th>
+                <th>Broken</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="sunburst in sunbursts">
+                <td>
+                    {{sunburst.id}}
+                </td>
+                <td>
+                    {{sunburst.node}}
+                </td>
+                <td>
+                    {{sunburst.value}}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
